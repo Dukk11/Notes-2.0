@@ -1,0 +1,17 @@
+# Navigieren Sie zu Ihrem Projektverzeichnis
+cd /path/to/your/project
+
+# Git-Repository initialisieren
+git init
+
+# Dateien zum Repository hinzufügen
+git add .
+
+# Änderungen committen
+git commit -m "Initial commit"
+
+# Remote-Repository hinzufügen
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
+
+# Änderungen pushen
+git push -u origin master
